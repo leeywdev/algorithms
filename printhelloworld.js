@@ -12,6 +12,6 @@ rl.on('line', function (line) {
     input = [line];
 }).on('close',function(){
     let str = input[0];
-    console.log(str);
+    console.log(str); //입력값 출력
 });
 
